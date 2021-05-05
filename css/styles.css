@@ -94,7 +94,9 @@ html {
   height: 4px;
   background-color: var(--accent-text-color);
 }
-
+.site-nav {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .header-contacts .item + .item {
   margin-left: 50px;
 }
@@ -107,6 +109,7 @@ html {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-section-link.header,
 .contacts-section-link-tel.header {
@@ -115,6 +118,7 @@ html {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav :hover,
@@ -184,6 +188,7 @@ html {
   padding: 10px 32px;
 
   min-width: 200px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button.portfolio {
   background: #f5f4fa;
@@ -346,6 +351,7 @@ html {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-icon.dark-mode {
   fill: white;
@@ -364,6 +370,7 @@ html {
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list-item-link.dark {
   background-color: rgba(255, 255, 255, 0.1);
@@ -381,6 +388,7 @@ html {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-section-link:hover .mail-icon,
 .contacts-section-link:focus .mail-icon {
@@ -391,6 +399,7 @@ html {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-section-link-tel:hover .tel-icon,
 .contacts-section-link-tel:focus .tel-icon {
@@ -412,6 +421,7 @@ html {
   fill: #afb1b8;
   width: 106px;
   height: 60px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-link {
   display: flex;
@@ -420,6 +430,7 @@ html {
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .client-list {
   display: flex;
