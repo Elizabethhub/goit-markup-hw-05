@@ -128,15 +128,17 @@
 
         <ul class="list section-list">
           <li class="what-we-do item">
-            <img src="./images/box1.jpg" alt="Монитор,клавиатура и программист верстает сайт" width="370" />
+            <img class="services-img" src="./images/box1.jpg" alt="Монитор,клавиатура и программист верстает сайт"
+              width="370" />
             <p class="what-we-do-title">Десктопные приложения</p>
           </li>
           <li class="what-we-do item">
-            <img src="./images/box2.jpg" alt="Варианты макетов смартфонов на мониторе" width="370" />
+            <img class="services-img" src="./images/box2.jpg" alt="Варианты макетов смартфонов на мониторе"
+              width="370" />
             <p class="what-we-do-title">Мобильные приложения</p>
           </li>
           <li class="what-we-do item">
-            <img src="./images/box3.jpg" alt="Палитра цветов" width="370" />
+            <img class="services-img" src="./images/box3.jpg" alt="Палитра цветов" width="370" />
             <p class="what-we-do-title">Дизайнерские решения</p>
           </li>
         </ul>
@@ -377,7 +379,7 @@
         </div>
         <div>
           <div class="advantages">
-            <h3 class="features-title light-text">Присоединяйтесь</h3>
+            <h3 class="features-title light-text advant-title">Присоединяйтесь</h3>
             <ul class="social-list list">
               <li class="social-list-item">
                 <a href="#" class="social-list-item-link dark">
@@ -410,8 +412,23 @@
             </ul>
           </div>
         </div>
+        <div class="subscribe">
+          <h3 class="features-title light-text subscribe-title">Подпишитесь на рассылку</h3>
+          <form action="" class="subscribe-form">
+
+            <input type="email" name="email" class="subscribe-form-input" placeholder="E-mail" required>
+
+            <button type="submit" class="subscribe-form-submit button">Подписаться<svg class="footer-tlg-icon">
+                <use href="./images/sprite.svg#tlg-send"></use>
+              </svg></button>
+
+
+          </form>
+        </div>
       </div>
     </div>
+
+
   </footer>
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -420,6 +437,53 @@
           <use href="./images/sprite.svg#icon-close"></use>
         </svg>
       </button>
+
+      <form action="#" class="modal-form">
+
+        <p class="modal-form-title">Оставьте свои данные, мы вам перезвоним</p>
+        <label> Имя
+
+          <span class="modal-form-input-wrapper">
+            <input class="modal-form-input" type="text" name="Name" class="modal-form-input" required>
+            <svg class="modal-form-icon">
+              <use href="./images/sprite.svg#person"></use>
+            </svg>
+          </span>
+
+        </label>
+        <label> Телефон
+          <span class="modal-form-input-wrapper">
+            <input class="modal-form-input" type="tel" name="tel" class="modal-form-input" required>
+            <svg class="modal-form-icon">
+              <use href="./images/sprite.svg#phone"></use>
+            </svg>
+          </span>
+
+        </label>
+        <label> Почта
+          <span class="modal-form-input-wrapper">
+            <input class="modal-form-input" type="email" name="email" class="modal-form-input" required>
+            <svg class="modal-form-icon">
+              <use href="./images/sprite.svg#email"></use>
+            </svg>
+          </span>
+
+        </label>
+        <label>
+          Комментарий
+          <textarea class="contact-form-message" name="feedback" placeholder="Введите текст"></textarea>
+        </label>
+        <input type="checkbox" name="policy" class="modal-form-term">
+        <label for="" class="modal-form-term-desc">
+          <svg class="modal-form-icon checkbox">
+            <use href="./images/sprite.svg#check-square"></use>
+          </svg>
+          Соглашаюсь с рассылкой и принимаю <a class="modal-form-term-link" href="">Условия договора</a>
+        </label>
+        <button type="submit" class="button modal-form-submit">Отправить</button>
+
+
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
